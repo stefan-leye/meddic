@@ -1,0 +1,45 @@
+{
+  "name": "meddic",
+  "version": "0.1.0-SNAPSHOT",
+  "description": "The Medical Diagnosis Dictionary",
+  "repository": "https://github.com/stefan-leye/meddic",
+  "main": "./src/main/resources/static/js/app.js",
+  "devDependencies": {
+
+    "browserify": "9.0.8",
+    "watchify": "3.2.2",
+    "tsify": "0.11.2",
+    "stringify": "3.1.0",
+    "uglifyify": "3.0.1",
+    "browserify-ng-html2js": "1.1.2",
+
+    "typescript": "1.6.2",
+    "vinyl-source-stream": "1.1.0",
+
+    "karma": "0.13.2",
+    "karma-jasmine": "0.3.5",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-webdriver-launcher": "~0.2.0",
+    "karma-chrome-launcher": "0.1.8",
+    "karma-firefox-launcher": "0.1.4",
+    "karma-browserify": "4.1.2",
+    "karma-htmlfile-reporter": "~0.2",
+    "karma-ng-html2js-preprocessor": "0.1.2",
+    "karma-coverage": "0.4.2",
+    "protractor": "^1.1.1"
+  },
+  "dependencies": {
+    "jquery": "2.1.4",
+
+    "bootstrap": "3.3.5",
+    "animate.css": "3.2.5",
+    "html5-boilerplate": "h5bp/html5-boilerplate",
+    "font-awesome": "4.3.0",
+
+    "angular": "1.5.0-beta.0",
+
+  },
+  "expose" : [
+    "jquery"
+  ]
+}
